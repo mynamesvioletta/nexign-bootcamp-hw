@@ -6,7 +6,6 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 
-
 public class HamcrestTest {
     @ParameterizedTest()
     @CsvSource(value = {"BLUE, WHITE", "GREY, YELLOW", "YELLOW, BLUE"})

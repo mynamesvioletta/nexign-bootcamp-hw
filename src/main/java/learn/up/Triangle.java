@@ -35,6 +35,7 @@ public class Triangle
             throw new IllegalArgumentException("Triangle is invalid: one side greater than sum of another sides");
         }
     }
+
     public int countPerimeter() {
         checkSidesArePositive();
         checkValidTriangle();
